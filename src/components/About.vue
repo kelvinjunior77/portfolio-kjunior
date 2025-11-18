@@ -78,10 +78,6 @@ onMounted(() => {
 
 
           <p class="mt-4 text-justify">
-            Trabalho com metodologias ágeis, sempre prezando por organização, comunicação clara e entregas pontuais. Meu
-            foco está em entregar código limpo, funcional e sustentável, sempre pensando na escalabilidade e facilidade
-            de manutenção.
-
             Se você busca alguém com experiência real de mercado, visão prática e comprometimento com resultados, pode
             contar comigo.
           </p>
