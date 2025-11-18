@@ -52,7 +52,7 @@ onMounted(() => {
         </p>
 
         <div class="transition-all duration-700 ease-in-out overflow-hidden"
-          :class="isExpanded ? 'max-h-[5000px] mt-6' : 'max-h-0'">
+          :class="isExpanded ? 'max-h-[2000px] mt-6' : 'max-h-0'">
 
           <div class="flex flex-col md:flex-row items-start md:items-center gap-8 mb-6">
 
