@@ -52,7 +52,7 @@ onMounted(() => {
         </p>
 
         <div class="transition-all duration-700 ease-in-out overflow-hidden"
-          :class="isExpanded ? 'max-h-[1000px] mt-6' : 'max-h-0'">
+          :class="isExpanded ? 'max-h-[5000px] mt-6' : 'max-h-0'">
 
           <div class="flex flex-col md:flex-row items-start md:items-center gap-8 mb-6">
 
@@ -126,18 +126,3 @@ onMounted(() => {
 
 
 </style>
-
-<!------- 
-
- 
-<div class="mb-4 p-2">
-        <div class="badge badge-soft badge-primary">Primary</div>
-        <div class="badge badge-soft badge-secondary">Secondary</div>
-        <div class="badge badge-soft badge-accent">Accent</div>
-        <div class="badge badge-soft badge-info">Info</div>
-        <div class="badge badge-soft badge-success">Success</div>
-        <div class="badge badge-soft badge-warning">Warning</div>
-        <div class="badge badge-soft badge-error">Error</div>
-      </div>-
-     
-      --------->
