@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>K.Junior - Dev Web</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Delius&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Delius&family=M+PLUS+Rounded+1c&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Delius&family=M+PLUS+Rounded+1c&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script>
+    // Note que atribuímos o objeto a 'tailwind.config'
+    tailwind.config = {
+      darkMode: 'dark',
+      theme: {
+        extend: {
+          // Seu bloco de keyframes (correto)
+          keyframes: {
+            fadeInUp: {
+              '0%': { opacity: '0', transform: 'translateY(20px)' },
+              '100%': { opacity: '1', transform: 'translateY(0)' },
+            },
+            fadeInRight: {
+              '0%': { opacity: '0', transform: 'translateX(-20px)' },
+              '100%': { opacity: '1', transform: 'translateX(0)' },
+            },
+            bounceSubtle: {
+              '0%, 100%': { transform: 'translateY(-3%)' },
+              '50%': { transform: 'translateY(0)' },
+            },
+            'slow-pan': {
+              '0%': { transform: 'scale(1.1) translate(0, 0)' },
+              '50%': { transform: 'scale(1.2) translate(5%, -5%)' },
+              '100%': { transform: 'scale(1.1) translate(0, 0)' }
+            },
+            // ✅ ADICIONE ESTES KEYFRAMES PARA A FLUTUAÇÃO
+            'float-y': {
+              '0%, 100%': { transform: 'translateY(-4%)' }, // Ponto mais alto
+              '50%': { transform: 'translateY(4%)' }      // Ponto mais baixo
+            }
+          },
+          // Seu bloco de animation (corrigido)
+          animation: {
+            'fade-in-up': 'fadeInUp 1s ease-out forwards',
+            'fade-in-right': 'fadeInRight 1s ease-out forwards',
+            'bounce-subtle': 'bounceSubtle 3s infinite ease-in-out',
+            'animated-bounce': 'bounce 1s ease-in-out infinite',
+
+            // IMPORTANTE: Faltava esta linha no seu código!
+            // Ela "conecta" seus keyframes 'slow-pan' à classe 'animate-slow-pan'
+            'slow-pan': 'slow-pan 15s infinite ease-in-out',
+            'float-y': 'float-y 20s infinite ease-in-out'
+          }
+        }
+      }
+      // O 'content' não é necessário ao usar o CDN.
+    }
+  </script>
+
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
