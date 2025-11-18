@@ -62,7 +62,7 @@ onMounted(() => {
       <div class="hero-image animate-bounce-subtle ">
         <div
           class="avatar w-64 h-64 md:w-96 md:h-96 rounded-full bg-base-300  flex items-center justify-center overflow-hidden  hero-pan-image slow-pan">
-          <img src="/src/assets/Innovation-bro.png" alt="Foto" class="object-cover  w-full h-full">
+         <img src="/src/assets/Innovation-bro.png" alt="Innovation-bro" class="object-cover  w-full h-full">         
         </div>
       </div>
 
