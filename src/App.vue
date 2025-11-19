@@ -23,9 +23,6 @@ const isLoading = ref(true);
 
 // 2. Lógica de carregamento
 onMounted(() => {
-    // 💡 IMPORTANTE: Aqui você pode colocar chamadas de API, 
-    // ou usar 'router.isReady()' se preferir.
-    
     // Simulação do tempo de carregamento (ex: 2 segundos)
     setTimeout(() => {
         isLoading.value = false; // Define como carregado

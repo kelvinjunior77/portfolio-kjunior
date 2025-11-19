@@ -1,8 +1,8 @@
 <script setup>
 import { ref, onMounted, watch } from 'vue'
 
-// 'theme' guardará o nome do tema atual (ex: 'light' ou 'dark')
-const theme = ref('light') // Padrão
+// tema atual 
+const theme = ref('dark') 
 
 // Função para aplicar o tema no HTML
 const applyTheme = (newTheme) => {
@@ -17,14 +17,14 @@ const toggleTheme = () => {
   applyTheme(newTheme)
 }
 
-// Quando o componente é montado, verifica o localStorage
+// verificação o localStorage
 onMounted(() => {
   const savedTheme = localStorage.getItem('theme')
   if (savedTheme) {
     applyTheme(savedTheme)
   } else {
-    // Se não houver tema salvo, usa o tema 'light' como padrão
-    applyTheme('light')
+    // Se não houver tema salvo, usa o tema 'dark' como padrão
+    applyTheme('dark')
   }
 })
 </script>
