@@ -91,16 +91,6 @@ onMounted(() => {
             
           </div>
 
-          <div class="flex flex-col items-center md:items-start space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 mb-12">
-
-
-            <a href=" https://code-tree.dev/kelvinjunior77-185" class="btn btn-lg shadow-lg w-full sm:w-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trees-icon lucide-trees"><path d="M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z"/><path d="M7 16v6"/><path d="M13 19v3"/><path d="M12 19h8.3a1 1 0 0 0 .7-1.7L18 14h.3a1 1 0 0 0 .7-1.7L16 9h.2a1 1 0 0 0 .8-1.7L13 3l-1.4 1.5"/></svg>
-              https://code-tree.dev/kelvinjunior77-185
-            </a>
-            
-          </div>
-
           <div class="flex justify-center md:justify-start space-x-8 mt-12">
             <a href="https://www.instagram.com/kelvinjunior442/" target="_blank"
               class="link link-hover text-base-content/70 hover:text-error transition-colors">
