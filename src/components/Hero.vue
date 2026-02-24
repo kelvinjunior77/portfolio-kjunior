@@ -90,7 +90,10 @@ onMounted(() => {
           <a href="#contato" class="btn btn-ghost font-medium bg-base-200 btn-lg shadow-lg
           hover:bg-white hover:text-black">Fale Comigo</a>
         </div>
+
+         <hr class="my-8 border-gray-300"/>
       </div>
+       
     </div>
   </section>
 </template>

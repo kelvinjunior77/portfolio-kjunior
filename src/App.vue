@@ -18,10 +18,10 @@ import Navbar from './components/Navbar.vue';
 import Footer from './components/Footer.vue';
 import ScrollToTopButton from './components/ScrollToTopButton.vue';
 
-// 1. Estado de carregamento
+// carregamento
 const isLoading = ref(true); 
 
-// 2. Lógica de carregamento
+// Lógica de carregamento
 onMounted(() => {
     // Simulação do tempo de carregamento (ex: 2 segundos)
     setTimeout(() => {
