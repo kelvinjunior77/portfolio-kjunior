@@ -13,7 +13,7 @@ let observer = null
 
 //  Quando o componente for montado no navegador...
 onMounted(() => {
-  
+
   const options = {
     root: null,
     rootMargin: '0px',
@@ -94,10 +94,12 @@ onBeforeUnmount(() => {
         </li>
         <li>
 
+          <!-----
           <router-link to="/kelvinjunior/blogue" class="border-b-4 pb-1 transition-colors duration-300"
           :class="activeSection === 'blogue' ? 'border-success text-success' : 'border-transparent hover:border-error/40'" >
             Blogue
-          </router-link>
+          </router-link> 
+         --->
 
         </li>
       </ul>
@@ -106,7 +108,7 @@ onBeforeUnmount(() => {
     <div class="navbar-end space-x-2">
       <ThemeToggle />
 
-     <!--- <div class="dropdown dropdown-end ml-0">
+      <!--- <div class="dropdown dropdown-end ml-0">
         <label tabindex="0" class="btn btn-ghost btn-circle" aria-label="Mudar idioma">
           <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none"
             stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
