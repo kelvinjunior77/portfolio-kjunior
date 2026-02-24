@@ -26,7 +26,7 @@ onMounted(() => {
     origin: 'bottom',
     opacity: 0,
     easing: 'ease-out',
-  });
+  });  
   ScrollReveal().reveal('#sobre .toggle-button', {
     delay: 300,
     distance: '20px',
@@ -49,6 +49,10 @@ onMounted(() => {
           personalizados e
           soluções responsivas que funcionam de verdade. Trabalho com foco em performance, segurança e usabilidade,
           entregando projetos que fazem diferença para empresas e pessoas.
+        </p>
+
+        <p class="text-justify mt-4">
+          Trabalho com metodologias ágeis, sempre prezando por organização, comunicação clara e entregas pontuais. Meu foco está em entregar código limpo, funcional e sustentável, sempre pensando na escalabilidade e facilidade de manutenção.
         </p>
 
         <div class="transition-all duration-700 ease-in-out overflow-hidden"
