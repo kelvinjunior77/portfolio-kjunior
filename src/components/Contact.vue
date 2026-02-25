@@ -59,8 +59,16 @@ onMounted(() => {
         </div>
 
         <div class="md:w-1/3 text-center md:text-left">
-          <h2 class="text-2xl font-bold mb-0 uppercase text-success">Vamos Conversar ?</h2>
-          <h2 class="text-2xl mb-6 text-success">para iniciar o seu projeto</h2>
+          <h2 class="text-2xl md:text-4xl font-bold mb-0 uppercase text-base-content">Vamos Conversar ?</h2>
+          <h2 class="text-2xl mb-6 text-success flex items-center justify-center md:justify-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="lucide lucide-arrow-right-icon lucide-arrow-right">
+              <path d="M5 12h14" />
+              <path d="m12 5 7 7-7 7" />
+            </svg>
+            para iniciar o seu projeto
+          </h2>
 
           <p class="max-w-xl mx-auto md:mx-0 text-lg text-base-content/80 mb-8 delius-regular">
             Estou sempre aberto a novas oportunidades e colaborações. Sinta-se à vontade para entrar em contato comigo.
@@ -69,7 +77,7 @@ onMounted(() => {
           <div class="flex flex-col items-center md:items-start space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4 mb-12">
 
             <a href="https://wa.me/+33753282632" target="_blank" rel="noopener noreferrer"
-              class="btn btn-success btn-lg shadow-lg w-full sm:w-auto">
+              class="btn btn-outline text-success rounded-2xl btn-lg shadow-lg w-full sm:w-auto">
 
               <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" fill="currentColor" class="bi bi-whatsapp"
                 viewBox="0 0 16 16">
@@ -79,7 +87,7 @@ onMounted(() => {
 
             </a>
 
-            <a href="mailto:kelvinjunior592@gmail.com" class="btn btn-lg shadow-lg w-full sm:w-auto">
+            <a href="mailto:kelvinjunior592@gmail.com" class="btn rounded-2xl btn-lg shadow-lg w-full sm:w-auto">
               <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="lucide lucide-mail-icon lucide-mail">
@@ -88,11 +96,11 @@ onMounted(() => {
               </svg>
               kelvinjunior592@gmail.com
             </a>
-            
+
           </div>
 
           <div class="flex justify-center md:justify-start space-x-8 mt-12">
-            <a href="https://www.instagram.com/kelvinjunior442/" target="_blank"
+            <a href="https://www.instagram.com/kevinndeke6" target="_blank"
               class="link link-hover text-base-content/70 hover:text-error transition-colors">
               <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
