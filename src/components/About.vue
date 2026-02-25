@@ -12,7 +12,7 @@ function toggleExpand() {
 
 // Lógica do ScrollReveal
 onMounted(() => {
-  
+
   ScrollReveal().reveal('#sobre h2', {
     delay: 100,
     distance: '20px',
@@ -26,7 +26,7 @@ onMounted(() => {
     origin: 'bottom',
     opacity: 0,
     easing: 'ease-out',
-  });  
+  });
   ScrollReveal().reveal('#sobre .toggle-button', {
     delay: 300,
     distance: '20px',
@@ -52,7 +52,9 @@ onMounted(() => {
         </p>
 
         <p class="text-justify mt-4">
-          Trabalho com metodologias ágeis, sempre prezando por organização, comunicação clara e entregas pontuais. Meu foco está em entregar código limpo, funcional e sustentável, sempre pensando na escalabilidade e facilidade de manutenção.
+          Trabalho com metodologias ágeis, sempre prezando por organização, comunicação clara e entregas pontuais. Meu
+          foco está em entregar código limpo, funcional e sustentável, sempre pensando na escalabilidade e facilidade de
+          manutenção.
         </p>
 
         <div class="transition-all duration-700 ease-in-out overflow-hidden"
@@ -76,7 +78,9 @@ onMounted(() => {
                 clientes de
                 diferentes
                 setores, tanto em Angola quanto no exterior. Tenho experiência com sistemas sob medida, sites
-                institucionais, e-commerces, plataformas de gestão, integrações com APIs e muito mais.</p>
+                institucionais, e-commerces, plataformas de gestão, integrações com APIs e muito mais.
+              </p>
+
             </div>
           </div>
 
@@ -104,11 +108,23 @@ onMounted(() => {
             <li>Equipes técnicas que precisavam de reforço em projetos complexos</li>
           </ul>
           </p>
+          <div class="mt-6">
+            <a href="#" class="btn btn-success w-90 hover:text-white">
+              Download CV <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="lucide lucide-arrow-down-icon lucide-arrow-down">
+                <path d="M12 5v14" />
+                <path d="m19 12-7 7-7-7" />
+              </svg>
+
+            </a>
+          </div>
 
         </div>
       </div>
 
-      <button @click="toggleExpand" class="btn text-success btn-outline mt-8 toggle-button  hover:text-green-500 hover:bg-base-100 hover:border-green-500">
+      <button @click="toggleExpand"
+        class="btn text-success btn-outline mt-8 toggle-button  hover:text-green-500 hover:bg-base-100 hover:border-green-500">
         {{ isExpanded ? 'Ver Menos' : 'Ver Mais' }}
 
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
@@ -122,11 +138,8 @@ onMounted(() => {
 </template>
 
 <style scoped>
-
 .delius-regular {
   font-family: "Delius", cursive;
   font-style: normal;
 }
-
-
 </style>
