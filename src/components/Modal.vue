@@ -1,4 +1,17 @@
 <template>
+  <dialog id="image_modal_gestao_projeto" class="modal">
+        <div class="modal-box w-11/12 max-w-4xl p-0">
+            <form method="dialog">
+                <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2 z-10 text-white">✕</button>
+            </form>
+            <img src="/src/assets/projetos/gestao-projetos.png" alt="Preview do Gestão de Projetos em tela cheia"
+                class="w-full h-auto">
+        </div>
+        <form method="dialog" class="modal-backdrop">
+            <button>close</button>
+        </form>
+    </dialog>
+
     <dialog id="image_modal_gestao" class="modal">
         <div class="modal-box w-11/12 max-w-4xl p-0">
             <form method="dialog">
