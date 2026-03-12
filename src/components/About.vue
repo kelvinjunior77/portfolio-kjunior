@@ -109,7 +109,7 @@ onMounted(() => {
           </ul>
           </p>
           <div class="mt-6">
-            <a href="#" class="btn btn-success w-90 hover:text-white">
+            <a href="/src/assets/kjunior.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-success w-90 hover:text-white">
               Download CV <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                 class="lucide lucide-arrow-down-icon lucide-arrow-down">

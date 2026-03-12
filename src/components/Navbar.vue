@@ -6,7 +6,7 @@ import { ref, onMounted, onBeforeUnmount } from 'vue'
 const activeSection = ref('')
 
 // lista de IDs das suas seções
-const sectionIds = ['home','hero', 'sobre', 'habilidades', 'projetos', 'contato', 'blogue']
+const sectionIds = ['home', 'hero', 'sobre', 'habilidades', 'projetos', 'contato', 'blogue']
 
 // Variável para guardar nosso "observador"
 let observer = null
@@ -133,7 +133,15 @@ onBeforeUnmount(() => {
       </div>
 
       <a href="#contato" class="btn btn-success m-1 hidden md:flex">Contrate-me</a>---->
-      <a href="#contato" class="btn btn-success m-1 rounded-full hidden md:flex hover:text-white">Download CV</a>
+      <a href="/src/assets/kjunior.pdf" target="_blank" rel="noopener noreferrer"
+        class="btn btn-success m-1 rounded-full hidden md:flex hover:text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+          <polyline points="7 10 12 15 17 10" />
+          <line x1="12" y1="15" x2="12" y2="3" />
+        </svg>
+        Download CV</a>
 
       <div class="dropdown dropdown-end lg:hidden">
         <label tabindex="0" class="btn btn-ghost btn-circle">
@@ -145,7 +153,7 @@ onBeforeUnmount(() => {
         <ul tabindex="0" class="menu menu-md dropdown-content mt-3 z-[1] p-4 shadow bg-base-100 rounded-box w-64">
 
           <div class="flex justify-center space-x-6 py-2 mb-3 border-b border-base-200">
-          
+
             <a href="https://github.com/kelvinjunior77" target="_blank" class="text-base-content hover:text-primary">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-github"
                 viewBox="0 0 16 16">
@@ -162,7 +170,7 @@ onBeforeUnmount(() => {
               </svg>
             </a>
 
-            <a href="https://www.instagram.com/https://www.instagram.com/kevinndeke6/"  target="_blank"
+            <a href="https://www.instagram.com/https://www.instagram.com/kevinndeke6/" target="_blank"
               class="text-base-content hover:text-error">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram"
                 viewBox="0 0 16 16">
