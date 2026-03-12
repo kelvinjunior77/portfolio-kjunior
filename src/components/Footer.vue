@@ -1,7 +1,7 @@
 <template>
   <footer class="footer footer-center  p-10 bg-base-200 text-base-content">
     <aside class="mt-6">
-      <p class="text-1xl font-bold text-error">
+      <p class="text-1xl font-bold text-gray-400">
         Kelvin Junior - Desenvolvedor Web
       </p> 
       <p>&copy; 2025 - {{ currentYear }} - Todos os direitos reservados.</p>

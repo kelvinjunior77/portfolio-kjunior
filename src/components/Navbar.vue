@@ -69,32 +69,32 @@ onBeforeUnmount(() => {
       <ul class="menu menu-horizontal px-1 font-medium space-x-2">
 
         <li>
-          <a href="#home" class="border-b-4 pb-1 transition-colors duration-300"
-            :class="activeSection === 'home' ? 'border-success text-success' : 'border-transparent hover:border-error/40'">
+          <a href="#home" class="transition-colors duration-300"
+            :class="activeSection === 'home' ? 'bg-base-300 text-success' : 'border-transparent hover:border-error/40'">
             Home
           </a>
         </li>
         <li>
-          <a href="#sobre" class="border-b-4 pb-1 transition-colors duration-300"
-            :class="activeSection === 'sobre' ? 'border-success text-success' : 'border-transparent hover:border-error/40'">
+          <a href="#sobre" class="transition-colors duration-300"
+            :class="activeSection === 'sobre' ? 'bg-base-300 text-success' : 'border-transparent hover:border-error/40'">
             Sobre
           </a>
         </li>
         <li>
-          <a href="#habilidades" class="border-b-4 pb-1 transition-colors duration-300"
-            :class="activeSection === 'habilidades' ? 'border-success text-success' : 'border-transparent hover:border-error/40'">
+          <a href="#habilidades" class="transition-colors duration-300"
+            :class="activeSection === 'habilidades' ? 'bg-base-300 text-success' : 'border-transparent hover:border-error/40'">
             Habilidades
           </a>
         </li>
         <li>
-          <a href="#projetos" class="border-b-4 pb-1 transition-colors duration-300"
-            :class="activeSection === 'projetos' ? 'border-success text-success' : 'border-transparent hover:border-error/40'">
+          <a href="#projetos" class="transition-colors duration-300"
+            :class="activeSection === 'projetos' ? 'bg-base-300 text-success' : 'border-transparent hover:border-error/40'">
             Projetos
           </a>
         </li>
         <li>
-          <a href="#contato" class="border-b-4 pb-1 transition-colors duration-300"
-            :class="activeSection === 'contato' ? 'border-success text-success' : 'border-transparent hover:border-error/40'">
+          <a href="#contato" class="transition-colors duration-300"
+            :class="activeSection === 'contato' ? 'bg-base-300 text-success' : 'border-transparent hover:border-error/40'">
             Contato
           </a>
         </li>
