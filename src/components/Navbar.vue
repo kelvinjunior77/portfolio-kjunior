@@ -133,7 +133,7 @@ onBeforeUnmount(() => {
       </div>
 
       <a href="#contato" class="btn btn-success m-1 hidden md:flex">Contrate-me</a>---->
-      <a href="/public/kjunior.pdf" target="_blank" rel="noopener noreferrer"
+      <a href="/kjunior.pdf" target="_blank" rel="noopener noreferrer"
         class="btn btn-success m-1 rounded-full hidden md:flex hover:text-white">
         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2">
@@ -141,7 +141,8 @@ onBeforeUnmount(() => {
           <polyline points="7 10 12 15 17 10" />
           <line x1="12" y1="15" x2="12" y2="3" />
         </svg>
-        Download CV</a>
+        Download CV
+      </a>
 
       <div class="dropdown dropdown-end lg:hidden">
         <label tabindex="0" class="btn btn-ghost btn-circle">
@@ -186,7 +187,8 @@ onBeforeUnmount(() => {
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#contato">Contato</a></li>
 
-          <a href="/public/kjunior.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-success w-full mt-2">Donwload CV</a>
+          <a href="/public/kjunior.pdf" target="_blank" rel="noopener noreferrer"
+            class="btn btn-success w-full mt-2">Donwload CV</a>
         </ul>
       </div>
     </div>
