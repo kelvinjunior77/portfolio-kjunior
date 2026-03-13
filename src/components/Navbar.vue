@@ -187,7 +187,7 @@ onBeforeUnmount(() => {
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#contato">Contato</a></li>
 
-          <a href="/public/kjunior.pdf" target="_blank" rel="noopener noreferrer"
+          <a href="/kjunior.pdf" target="_blank" rel="noopener noreferrer"
             class="btn btn-success w-full mt-2">Donwload CV</a>
         </ul>
       </div>
