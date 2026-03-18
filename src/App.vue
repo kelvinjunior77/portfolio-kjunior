@@ -23,9 +23,9 @@ const isLoading = ref(true);
 
 // Lógica de carregamento
 onMounted(() => {
-    // Simulação do tempo de carregamento (ex: 2 segundos)
+    
     setTimeout(() => {
         isLoading.value = false; // Define como carregado
-    }, 2000); 
+    }, 1000); 
 });
 </script>
