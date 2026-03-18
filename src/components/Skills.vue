@@ -112,6 +112,13 @@ onMounted(() => {
               <span class="text-sm font-medium">Tailwind CSS</span>
             </div>
 
+             <div
+              class="skill-item flex flex-col items-center justify-center p-4 bg-base-200 rounded-lg shadow-md transition-all duration-300 hover:-translate-y-1 overflow-hidden border-2 border-transparent hover:border-yellow-400">
+              <img src="/src/assets/icon/daisyui-icon.svg" alt="Logo Tailwind CSS"
+                class="w-12 h-12 mb-3 object-contain">
+              <span class="text-sm font-medium">Daisyui</span>
+            </div>
+
             <div
               class="skill-item flex flex-col items-center justify-center p-4 bg-base-200 rounded-lg shadow-md transition-all duration-300 hover:-translate-y-1 overflow-hidden border-2 border-transparent hover:border-purple-700">
               <img src="/src/assets/icon/bootstrap-4.svg" alt="Logo Bootstrap" class="w-12 h-12 mb-3 object-contain">
