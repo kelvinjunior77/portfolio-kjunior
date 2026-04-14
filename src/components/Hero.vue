@@ -129,7 +129,7 @@ onUnmounted(() => {
 
         <h1 class="hero-title leading-tight mb-4">
           <span class="block text-3xl md:text-4xl font-bold mb-2">
-            Olá, eu sou <span class="text-success text-5xl md:text-6xl permanent-marker">K.Junior</span>
+            <span class="text-success text-5xl md:text-6xl permanent-marker">K.Junior</span>
           </span>
           <span class="block text-5xl md:text-7xl font-extrabold text-base-content mt-2" :class="corAtual">
             Desenvolvedor Web

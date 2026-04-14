@@ -93,7 +93,7 @@ onMounted(() => {
           <p class="mt-4 text-justify">
             Especialidades:
           <ul class="text-justify list-disc list-inside mt-2 text-error">
-            <li>Desenvolvimento com PHP, Laravel, JavaScript, Vue.js</li>
+            <li>Desenvolvimento web com PHP, Laravel, JavaScript, Vue.js</li>
             <li>Criação de bancos de dados eficientes com MySQL</li>
             <li>Integrações com APIs e sistemas de terceiros</li>
             <li>Layouts responsivos com HTML5, CSS3, Bootstrap, Tailwind CSS</li>

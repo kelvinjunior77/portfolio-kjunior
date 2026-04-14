@@ -99,6 +99,8 @@ onBeforeUnmount(() => {
           </a>
         </li>
         <li>
+        </li>
+        <li>
 
           <!-----
           <router-link to="/kelvinjunior/blogue" class="border-b-4 pb-1 transition-colors duration-300"
