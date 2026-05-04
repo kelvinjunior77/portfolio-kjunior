@@ -102,13 +102,6 @@ onBeforeUnmount(() => {
         </li>
         <li>
 
-          <!-----
-          <router-link to="/kelvinjunior/blogue" class="border-b-4 pb-1 transition-colors duration-300"
-          :class="activeSection === 'blogue' ? 'border-success text-success' : 'border-transparent hover:border-error/40'" >
-            Blogue
-          </router-link> 
-         --->
-
         </li>
       </ul>
     </div>
@@ -145,6 +138,11 @@ onBeforeUnmount(() => {
         </svg>
         Download CV
       </a>
+
+      <router-link to="/kelvinjunior/blogue" class="border-1 mt-1 rounded-2xl badge 
+          p-4 text-sm hover:bg-error hover:text-white transition-colors duration-300">
+        Blogue
+      </router-link>
 
       <div class="dropdown dropdown-end lg:hidden">
         <label tabindex="0" class="btn btn-ghost btn-circle">
@@ -189,8 +187,8 @@ onBeforeUnmount(() => {
           <li><a href="#projetos">Projetos</a></li>
           <li><a href="#contato">Contato</a></li>
 
-          <a href="/kjunior.pdf" target="_blank" rel="noopener noreferrer"
-            class="btn btn-success w-full mt-2">Donwload CV</a>
+          <a href="/kjunior.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-success w-full mt-2">Donwload
+            CV</a>
         </ul>
       </div>
     </div>
