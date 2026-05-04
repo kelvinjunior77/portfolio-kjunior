@@ -17,12 +17,12 @@ const ano = new Date().getFullYear();
 
         <div class="navbar-end ">
 
-          <ThemeToggle class="mr-1" />
+          <ThemeToggle class="mr-0" />
 
-          <button
-            class="text-xs uppercase tracking-widest font-medium border border-ink px-4 py-1.5 rounded-full hover:bg-ink hover:text-cream transition-all duration-200">
-            Assinar
-          </button>
+          <router-link to="/"
+            class="ml-4 text-xs uppercase tracking-widest font-medium border border-ink px-4 py-1.5 rounded-full hover:bg-ink hover:text-cream transition-all duration-200">
+            KJ - Dev
+          </router-link>
         </div>
       </div>
     </header>
