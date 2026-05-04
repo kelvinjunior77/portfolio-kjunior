@@ -100,7 +100,7 @@ onMounted(() => {
           </div>
 
           <div class="flex justify-center md:justify-start space-x-8 mt-12">
-            <a href="https://www.instagram.com/kevinndeke6" target="_blank"
+            <a href="https://www.instagram.com/kjunior_dev99/" target="_blank"
               class="link link-hover text-base-content/70 hover:text-error transition-colors">
               <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
