@@ -139,7 +139,7 @@ onBeforeUnmount(() => {
         Download CV
       </a>
 
-      <router-link to="/kelvinjunior/blogue" class="border-1 mt-1 rounded-2xl badge 
+      <router-link :to="{ name: 'Blogue' }" class="border-1 mt-1 rounded-2xl badge 
           p-4 text-sm hover:bg-error hover:text-white transition-colors duration-300">
         Blogue
       </router-link>
