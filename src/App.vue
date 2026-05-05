@@ -3,17 +3,17 @@
     <PageLoader :isLoading="isLoading" />
 
     <div :class="{ 'opacity-100 transition-opacity duration-700': !isLoading, 'opacity-0': isLoading }">
-        <Navbar v-if="$route.path !== '/kelvinjunior/blogue'"/>
+        <Navbar v-if="$route.path !== '/blogue'"/>
         <router-view />
         <ScrollToTopButton />
-        <Footer v-if="$route.path !== '/kelvinjunior/blogue'"/>
+        <Footer v-if="$route.path !== '/blogue'"/>
     </div>
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import PageLoader from './components/PageLoader.vue'; // Ajuste o caminho
+import PageLoader from './components/PageLoader.vue';
 import Navbar from './components/Navbar.vue';
 import Footer from './components/Footer.vue';
 import ScrollToTopButton from './components/ScrollToTopButton.vue';
