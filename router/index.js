@@ -2,6 +2,7 @@ import { createRouter, createWebHistory, createWebHashHistory} from "vue-router"
 import Home from "../pages/Home.vue";
 //const lazyLoad = (view) => import(`../pages/${view}.vue`);
 import Blogue from "../pages/Blogue.vue";
+import Post_1 from "../pages/posts/Post_1.vue";
 
 const routes = [
     {
@@ -16,6 +17,12 @@ const routes = [
         //component: lazyLoad("Blogue"),
         component: Blogue
      },
+     {
+        path: "/blogue/post-1",
+        name: "Post_1",
+        component: Post_1
+     }
+
 ];
 
 const router = createRouter({
