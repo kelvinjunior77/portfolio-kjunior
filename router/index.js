@@ -24,3 +24,6 @@ const router = createRouter({
 });
 
 export default router;
+
+/** Tive que comentar a linha do lazyLoad para que o componente Blogue carregasse no servidor, 
+  na máquina local funciona perfeitamente. */
