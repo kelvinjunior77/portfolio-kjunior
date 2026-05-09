@@ -5,7 +5,7 @@
     <div :class="{ 'opacity-100 transition-opacity duration-700': !isLoading, 'opacity-0': isLoading }">
         <Navbar v-if="!esconderLayout"/>
         <router-view />
-        <ScrollToTopButton />
+        <ScrollToTopButton v-if="!esconderLayout"/>
         <Footer v-if="!esconderLayout"/>
     </div>
   </div>
@@ -35,9 +35,9 @@ onMounted(() => {
     }, 1000); 
 });
 
-const rotasSemNav = ['Blogue', 'Post_1', 'Admin'];
+const rotasSemNav = ['Blogue', 'Post_1', 'Post_2'];
 
-// Cverificar rota atual
+// verificar rota atual
 const esconderLayout = computed(() => {
   return rotasSemNav.includes(route.name);
 });
