@@ -6,10 +6,10 @@ import ThemeToggle from './ThemeToggle.vue';
 <template>
     <header class="fixed top-0 left-0 right-0 z-50 bg-cream/90 backdrop-blur-md shadow-2xl">
         <div class="max-w-6xl mx-auto px-6 h-14 flex items-center justify-between">
-            <a href="#"
+            <router-link :to="{ name: 'Blogue' }"
                 class="font-serif font-black text-xl tracking-tight text-success text-shadow-2xs permanent-marker">
                 MyBlogue<span class="text-success text-shadow-2xs">.</span>
-            </a>
+            </router-link>
 
             <div class="navbar-end ">
 
@@ -42,3 +42,11 @@ import ThemeToggle from './ThemeToggle.vue';
         </div>
     </header>
 </template>
+
+<style scoped>
+.permanent-marker {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+</style>
