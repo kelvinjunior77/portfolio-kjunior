@@ -7,3 +7,86 @@
 html {
   scroll-behavior: smooth;
 }
+
+blockquote {
+    border-left: 3px solid #c84b31;
+    padding-left: 1.5rem;
+    margin: 2.5rem 0;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+
+.drop-cap::first-letter {
+    font-family: 'Playfair Display', serif;
+    font-size: 5.5rem;
+    font-weight: 900;
+    float: left;
+    line-height: 0.78;
+    margin-right: 0.12em;
+    margin-top: 0.08em;
+    color: #c84b31;
+}
+
+.prose-body p {
+    line-height: 1.85;
+    font-size: 1.0625rem;
+    /* color: #2a2520; */
+    margin-bottom: 1.5rem;
+}
+
+hr.ornament {
+    border: none;
+    text-align: center;
+    margin: 2.5rem 0;
+    color: #c84b31;
+    font-size: 1.3rem;
+    letter-spacing: 0.5em;
+}
+
+hr.ornament::before {
+    content: '✦  ✦  ✦';
+}
+
+.author-avatar {
+    background: linear-gradient(135deg, #c84b31, #f0a070);
+}
+
+.tag-pill {
+    display: inline-block;
+    padding: 0.2rem 0.75rem;
+    border: 1px solid #c84b31;
+    color: #c84b31;
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border-radius: 999px;
+    transition: all 0.2s;
+}
+
+.tag-pill:hover {
+    background: #c84b31;
+    color: #f5f0e8;
+}
+
+.share-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.45rem 1rem;
+    border-radius: 999px;
+    font-size: 0.78rem;
+    font-weight: 500;
+    transition: all 0.2s;
+    cursor: pointer;
+    background: transparent;
+}
+
+
+.tag-pill:hover {
+  background: #c84b31;
+  color: #f5f0e8;
+}
