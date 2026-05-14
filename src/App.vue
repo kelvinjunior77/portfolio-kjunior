@@ -35,7 +35,7 @@ onMounted(() => {
     }, 1000); 
 });
 
-const rotasSemNav = ['Blogue', 'Post_1', 'Post_2'];
+const rotasSemNav = ['Blogue', 'Post_1', 'Post_2', 'NotFound'];
 
 // verificar rota atual
 const esconderLayout = computed(() => {
