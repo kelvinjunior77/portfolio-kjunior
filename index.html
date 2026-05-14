@@ -15,10 +15,10 @@
     href="https://fonts.googleapis.com/css2?family=Delius&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
 
-  
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
   <!-- Tema Dark Profissional -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-okaidia.min.css">
 
   <link
     href="https://fonts.googleapis.com/css2?family=Delius&family=M+PLUS+Rounded+1c&family=Permanent+Marker&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
@@ -32,12 +32,12 @@
   <script src="https://unpkg.com/scrollreveal"></script>
 
   <script>
-    // Note que atribuímos o objeto a 'tailwind.config'
+
     tailwind.config = {
       darkMode: 'dark',
       theme: {
         extend: {
-          // Seu bloco de keyframes (correto)
+
           keyframes: {
             fadeInUp: {
               '0%': { opacity: '0', transform: 'translateY(20px)' },
@@ -56,42 +56,41 @@
               '50%': { transform: 'scale(1.2) translate(5%, -5%)' },
               '100%': { transform: 'scale(1.1) translate(0, 0)' }
             },
-            // ✅ ADICIONE ESTES KEYFRAMES PARA A FLUTUAÇÃO
+
             'float-y': {
-              '0%, 100%': { transform: 'translateY(-4%)' }, // Ponto mais alto
-              '50%': { transform: 'translateY(4%)' }      // Ponto mais baixo
+              '0%, 100%': { transform: 'translateY(-4%)' },
+              '50%': { transform: 'translateY(4%)' }
             }
           },
-          // Seu bloco de animation (corrigido)
+
           animation: {
             'fade-in-up': 'fadeInUp 1s ease-out forwards',
             'fade-in-right': 'fadeInRight 1s ease-out forwards',
             'bounce-subtle': 'bounceSubtle 3s infinite ease-in-out',
             'animated-bounce': 'bounce 1s ease-in-out infinite',
 
-            // IMPORTANTE: Faltava esta linha no seu código!
-            // Ela "conecta" seus keyframes 'slow-pan' à classe 'animate-slow-pan'
             'slow-pan': 'slow-pan 15s infinite ease-in-out',
             'float-y': 'float-y 20s infinite ease-in-out'
           }
         }
       }
-      // O 'content' não é necessário ao usar o CDN.
+
     }
   </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-php.min.js"></script>
 
 </head>
 
+
 <body>
-  
+
 
 
 
   <div id="app"></div>
   <script type="module" src="/src/main.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-php.min.js"></script>
-  
+
 
 </body>
 
