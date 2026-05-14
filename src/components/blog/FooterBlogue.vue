@@ -21,3 +21,10 @@
         </div>
     </footer>
 </template>
+
+<script setup>
+import { ref } from 'vue';
+
+const ano = new Date().getFullYear();
+
+</script>
