@@ -4,10 +4,7 @@ import Share from '../../src/components/blog/Share.vue';
 import { onMounted, nextTick } from 'vue';
 
 onMounted(async () => {
-
     await nextTick();
-
-
     if (window.Prism) {
         window.Prism.highlightAll();
     }
@@ -18,15 +15,23 @@ onMounted(async () => {
     <Layout>
 
         <template #shre>
-            <Share title="Título do Artigo - Kelvin Junior" text="Estou a ler sobre IA no blogue do Kelvin." />
+            <Share title="URL Amigável PHP mini framework" text="Este projeto tem como objetivo simplificar a manipulação de rotas, tornando possível criar..." />
         </template>
 
         <div class="prose-body">
 
             <p class="drop-cap">
+
+                Você já tentou organizar a estrutura de arquivos do seu projeto, tornando-a mais profissional e escalável ?
+
+                <p>Além disso, já pensou em utilizar URLs amigáveis e padronizadas para melhorar a navegação e a apresentação do sistema ? Se a resposta for sim, então este projeto foi desenvolvido exatamente para solucionar esse problema. </p>
+
+                <p>Desde o início do desenvolvimento de sistemas e sites utilizando PHP puro, é comum surgir a necessidade de estruturar melhor a aplicação, tanto em organização quanto em experiência de uso. Um dos pontos mais recorrentes é a utilização de URLs pouco amigáveis, como por exemplo: <code>https://sistema/produtos.php</code></p>
+
                 O URL Amigável PHP é um mini framework desenvolvido para facilitar a criação de rotas amigáveis ​​em
                 projetos PHP. Ele permite mapear URLs limpas e legíveis para funções, métodos ou arquivos, tornando o
-                desenvolvimento de aplicações web mais organizado, seguro e fácil de manter.
+                desenvolvimento de aplicações web mais organizado, seguro e fácil de manter. 
+                <br><code>https://sistema/produtos</code>
             </p>
 
             <blockquote>
@@ -65,7 +70,7 @@ onMounted(async () => {
             <h2 class="font-serif font-bold text-2xl md:text-3xl text-ink mt-10 mb-4 leading-tight">Exemplo de uso</h2>
 
             <pre>
-        <code class="language-php">
+            <code class="language-php">
             switch ($url) {
             case 'home':
             include_once "view/pages/home.html";
@@ -83,7 +88,7 @@ onMounted(async () => {
             include_once "view/pages/404.php";
             break;
             } </code>
-    </pre>
+            </pre>
 
         </div>
 
@@ -94,7 +99,7 @@ onMounted(async () => {
         </div>
 
         <!-- Author card -->
-        <div class="mt-12 p-6 rounded-2xl bg-white/60 border border-line flex gap-5 items-start">
+        <div class="mt-12 p-6 rounded-2xl border border-line flex gap-5 items-start">
             <div
                 class="author-avatar w-14 h-14 rounded-full flex-shrink-0 flex items-center justify-center text-white text-lg font-bold font-serif">
                 KJ</div>
@@ -110,3 +115,22 @@ onMounted(async () => {
         </div>
     </Layout>
 </template>
+
+<style scoped>
+pre[class*="language-"] {
+    border-radius: 1rem;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    overflow-x: auto;
+    background-color: #0f172a;
+    border: 1px solid #1f2937;
+    box-shadow: 0 25px 50px -12px rgba(15, 23, 42, 0.65);
+    font-family: 'Fira Code', monospace;
+    /* Opcional: se tiver essa fonte */
+}
+
+code[class*="language-"] {
+    font-size: 0.875rem;
+    line-height: 1.625;
+}
+</style>
