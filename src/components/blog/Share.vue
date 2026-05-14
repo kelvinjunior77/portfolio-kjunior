@@ -38,7 +38,7 @@ const STORAGE_KEY_LIKED = `liked_${postId}`;
 const STORAGE_KEY_COUNT = `likes_count_${postId}`;
 
 const liked = ref(false);
-const likesCount = ref(1); // Em um app real, isso viria do seu banco de dados
+const likesCount = ref(0); 
 
 onMounted(() => {
     // 1. Carrega se o usuário já deu like
@@ -52,7 +52,7 @@ onMounted(() => {
     if (savedCount !== null) {
         likesCount.value = parseInt(savedCount);
     } else {
-        // Se é a primeira vez, salva o valor padrão (1200) no storage
+        // Se é a primeira vez, salva o valor padrão no storage
         localStorage.setItem(STORAGE_KEY_COUNT, likesCount.value.toString());
     }
 });
@@ -116,7 +116,5 @@ const toggleLike = () => {
     cursor: pointer;
 }
 
-.share-btn:hover {
-    background-color: rgba(248, 250, 252, 1);
-}
+
 </style>
