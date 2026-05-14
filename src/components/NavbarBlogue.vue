@@ -16,8 +16,8 @@ import ThemeToggle from './ThemeToggle.vue';
                 <ThemeToggle class="mr-0" />
 
                 <router-link to="/"
-                    class="ml-4 text-xs uppercase tracking-widest font-medium border border-ink px-4 py-1.5 rounded-full hover:bg-ink hover:text-cream transition-all duration-200">
-                    KJ - Dev
+                    class="ml-4 text-xs uppercase tracking-widest font-medium border-2 border-red-700 border-ink px-4 py-1.5 rounded-full hover:bg-ink hover:text-cream transition-all duration-200">
+                    KJ
                 </router-link>
 
                 <div class="dropdown dropdown-end ml-0">
