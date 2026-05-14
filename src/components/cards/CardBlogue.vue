@@ -14,7 +14,7 @@
                     </div>
                     <span class="tag-pill text-[0.65rem] mb-2 inline-block badge-ghost">Tecnologia</span>
                     <span class="tag-pill text-[0.65rem] mb-2 inline-block badge-ghost ml-1">PHP</span>
-                    <router-link :to="{ name: 'Post_1' }">
+                    <router-link :to="{ name: 'Post_1' }" >
                         <h4 class="font-bold text-lg leading-snug text-ink group-hover:text-accent transition-colors">
                             URL Amigavel - Sistema de Rotas com PHP — Miniframework simples.
                         </h4>
@@ -25,19 +25,22 @@
                 <!-- Card 2 -->
                 <article class="related-card cursor-pointer group">
                     <div class="rounded-xl overflow-hidden mb-4 aspect-[3/2] bg-gray-200">
-                        <img src="https://images.unsplash.com/photo-1555255707-c07966088b7b?w=600&q=70" alt=""
-                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                        <img src="/src/assets/ziggy.jpg" alt=""
+                            class="w-100 h-40 object-cover group-hover:scale-105 transition-transform duration-500" />
                     </div>
-                    <span class="tag-pill text-[0.65rem] mb-2 inline-block badge-ghost">Ciência</span>
+                    <span class="tag-pill text-[0.65rem] mb-2 inline-block badge-ghost">PHP</span>
+                    <span class="tag-pill text-[0.65rem] mb-2 inline-block badge-ghost ml-1">Laravel</span>
+                    <span class="tag-pill text-[0.65rem] mb-2 inline-block badge-ghost ml-1">Vue Js</span>
+                   
                     <router-link :to="{ name: 'Post_2' }">
                         <h4 class="font-bold text-lg leading-snug text-ink group-hover:text-accent transition-colors">
-                            Os modelos que aprendem a mentir — e o que fazer a respeito
+                            Erros de Rotas no Frontend com Vue Js. Usando Inertia - Laravel
                         </h4>
                     </router-link>
-                    <p class="text-muted text-xs mt-2">11 min · 7 Abr 2026</p>
+                    <p class="text-muted text-xs mt-2">13 Maio 2026</p>
                 </article>
 
-                <!-- Card 3 -->
+                <!-- Card 3 
                 <article class="related-card cursor-pointer group">
                     <div class="rounded-xl overflow-hidden mb-4 aspect-[3/2] bg-gray-200">
                         <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=70" alt=""
@@ -48,7 +51,7 @@
                         Edge computing e IA: o processamento que vai para a borda
                     </h4>
                     <p class="text-muted text-xs mt-2">6 min · 1 Abr 2026</p>
-                </article>
+                </article>-->
 
             </div>
         </div>
