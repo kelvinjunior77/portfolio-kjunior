@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, createWebHashHistory } from "vue-router";
 import Home from "../pages/Home.vue";
 //const lazyLoad = (view) => import(`../pages/${view}.vue`);
+import NotFound from "../pages/NotFound.vue";
 import Blogue from "../pages/Blogue.vue";
 import Post_1 from "../pages/posts/Post_1.vue";
 import Post_2 from "../pages/posts/Post_2.vue";
@@ -19,15 +20,22 @@ const routes = [
         component: Blogue
     },
     {
-        path: "/blogue/post-1",
+        path: "/blogue/post/url-amigavel-php-mini-framework",
         name: "Post_1",
         component: Post_1
     },
     {
-        path: "/blogue/post-2",
+        path: "/blogue/post/erros-ao-utilizar-rotas-no-vue-router-laravel-inertia-js",
         name: "Post_2",
-        //component: lazyLoad("Post_2"),
+        //component: lazyLoad("Post_2"),  erros ao utilizar rotas no
         component: Post_2
+    },
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'NotFound',
+        component: NotFound,
+        meta: { hideNavbar: true } //  esconder o Navbar na 404
+
     }
 
 ];
@@ -35,14 +43,14 @@ const routes = [
 // Esta função controla o comportamento do scroll
 const router = createRouter({
     history: createWebHistory(),
-    routes: [ ...routes ],
+    routes: [...routes],
 
     scrollBehavior(to, from, savedPosition) {
-        
+
         if (savedPosition) {
             return savedPosition;
         } else {
-            
+
             return { top: 0, behavior: 'smooth' }; // 'smooth' faz um deslize suave
         }
     },
