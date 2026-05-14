@@ -2,9 +2,6 @@
 import CardBlogue from '../src/components/cards/CardBlogue.vue';
 import NavbarBlogue from '../src/components/NavbarBlogue.vue';
 import FooterBlogue from '../src/components/blog/FooterBlogue.vue';
-
-const ano = new Date().getFullYear();
-
 </script>
 
 <template>
