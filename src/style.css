@@ -57,6 +57,20 @@ hr.ornament::before {
 .tag-pill {
     display: inline-block;
     padding: 0.2rem 0.75rem;
+    /*border: 1px solid #c84b31;
+    color: #c84b31;*/
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    border-radius: 999px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 0.2rem 0.75rem;
     border: 1px solid #c84b31;
     color: #c84b31;
     font-size: 0.7rem;
@@ -65,9 +79,10 @@ hr.ornament::before {
     text-transform: uppercase;
     border-radius: 999px;
     transition: all 0.2s;
+    cursor: pointer;
 }
 
-.tag-pill:hover {
+.project-link:hover {
     background: #c84b31;
     color: #f5f0e8;
 }
@@ -85,8 +100,3 @@ hr.ornament::before {
     background: transparent;
 }
 
-
-.tag-pill:hover {
-  background: #c84b31;
-  color: #f5f0e8;
-}
