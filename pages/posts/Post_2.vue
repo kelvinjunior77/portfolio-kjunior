@@ -72,16 +72,12 @@ onMounted(async () => {
             <img src="/src/assets/ziggy-2.png" class="w-full h-auto rounded-lg mb-6 object-cover"alt="">
             </p>
 
-            <p>
-                <a class="badge badge-ghost" href="https://laracasts.com/discuss/channels/inertia/laravel-inertia-js-vue-3-ziggy-routes">Para mais informação sobre a instalação e como usar <--</a>
-            </p>
         </div>
 
         <div class="flex flex-wrap gap-2 mt-12 pt-8 border-t border-line">
             <span class="badge badge-ghost">Veja alguns projetos usando Ziggy.js </span>
-            <a href="https://github.com/kelvinjunior77/gestao-de-projetos" target="_blank" class="tag-pill">Gestão de projetos</a>
-            <a href="https://github.com/kelvinjunior77/laravue-crud" target="_blank" class="tag-pill">Laravue CRUD</a>
-            <span>Ou podes ir diretamente no portifolio nos projetos.</span>
+            <a href="https://github.com/kelvinjunior77/gestao-de-projetos" target="_blank" class="project-link">Gestão de projetos</a>
+            <a href="https://github.com/kelvinjunior77/laravue-crud" target="_blank" class="project-link">Laravue CRUD</a>
         </div>
         
 

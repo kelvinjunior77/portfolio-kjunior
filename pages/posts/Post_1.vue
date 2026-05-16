@@ -93,11 +93,18 @@ onMounted(async () => {
         </div>
 
         <!-- Tags -->
-        <div class="flex flex-wrap gap-2 mt-12 pt-8 border-t border-line">
-            <a href="https://github.com/kelvinjunior77/url-amigavel-php" target="_blank" class="tag-pill">Acessar o
-                repositorio</a>
+        <div class="flex flex-wrap gap-2 mt-12 pt-8">
+            <span>Acessar o repositorio</span>
+            <a href="https://github.com/kelvinjunior77/url-amigavel-php" target="_blank" class="project-link">url-amigavel-php</a>
         </div>
 
+        <div class="flex flex-wrap gap-2 mt-12 pt-8 border-t border-line">
+            <span class="badge badge-ghost">Veja alguns projetos utilizando url-amigavel-php </span>
+            <a href="https://github.com/kelvinjunior77/salao2" target="_blank" class="project-link">Sistema de gestão</a>
+            <a href="https://github.com/kelvinjunior77/dicionario-tecnico" target="_blank" class="project-link">Dicionário Técnico</a>
+            <a href="https://github.com/kelvinjunior77/galeriakat" target="_blank" class="project-link">Galeria Kat</a>
+        </div>
+    
         <!-- Author card -->
         <div class="mt-12 p-6 rounded-2xl border border-line flex gap-5 items-start">
             <div
