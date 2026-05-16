@@ -14,8 +14,9 @@
                     </div>
                     <span class="tag-pill text-[0.65rem] mb-2 inline-block badge-ghost">Tecnologia</span>
                     <span class="tag-pill text-[0.65rem] mb-2 inline-block badge-ghost ml-1">PHP</span>
-                    <router-link :to="{ name: 'Post_1' }" >
-                        <h4 class="font-bold text-lg leading-snug text-ink group-hover:text-accent transition-colors">
+                    <router-link :to="{ name: 'Post_1' }" custom v-slot="{ navigate, isActive }">
+                        <h4 class="font-bold text-lg leading-snug text-ink group-hover:text-accent transition-colors"
+                            :class="isActive ? 'text-accent' : 'text-ink group-hover:text-accent'" @click="navigate">
                             URL Amigavel - Sistema de Rotas com PHP — Miniframework simples.
                         </h4>
                     </router-link>
@@ -32,8 +33,9 @@
                     <span class="tag-pill text-[0.65rem] mb-2 inline-block badge-ghost ml-1">Laravel</span>
                     <span class="tag-pill text-[0.65rem] mb-2 inline-block badge-ghost ml-1">Vue Js</span>
                    
-                    <router-link :to="{ name: 'Post_2' }">
-                        <h4 class="font-bold text-lg leading-snug text-ink group-hover:text-accent transition-colors">
+                    <router-link :to="{ name: 'Post_2' }" custom v-slot="{ navigate, isActive }">
+                        <h4 class="font-bold text-lg leading-snug text-ink group-hover:text-accent transition-colors"
+                            :class="isActive ? 'text-accent' : 'text-ink group-hover:text-accent'" @click="navigate">
                             Erros de Rotas no Frontend com Vue Js. Usando Inertia - Laravel
                         </h4>
                     </router-link>
